@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture Study Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Agriculture Study Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="tools.html">Tools</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>This website is dedicated to providing resources, tools, and knowledge for students and professionals in agriculture.</p>
+        </section>
+
+        <section>
+            <h2>Featured Resources</h2>
+            <ul>
+                <li><a href="resources.html">Crop Management Guide</a></li>
+                <li><a href="resources.html">Soil Health Basics</a></li>
+                <li><a href="resources.html">Pest Control Techniques</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Agriculture Study Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>

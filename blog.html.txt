@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Agriculture Study Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="tools.html">Tools</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Agriculture Blog</h2>
+            <article>
+                <h3>The Importance of Crop Rotation</h3>
+                <p>Crop rotation is an effective way to increase productivity in agriculture...</p>
+            </article>
+            <article>
+                <h3>Benefits of Organic Farming</h3>
+                <p>Organic farming is not only beneficial for the environment but also for health...</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Agriculture Study Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!-- tools.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture Tools</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Agriculture Tools</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="tools.html">Tools</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Crop Yield Calculator</h2>
+        <form id="yieldCalculator">
+            <label for="area">Area (in hectares):</label>
+            <input type="number" id="area" required>
+            <br>
+            <label for="yield">Yield per hectare (in tons):</label>
+            <input type="number" id="yield" required>
+            <br>
+            <button type="submit">Calculate</button>
+        </form>
+        <p id="result"></p>
+    </main>
+
+    <script>
+        document.getElementById('yieldCalculator').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const area = parseFloat(document.getElementById('area').value);
+            const yieldPerHectare = parseFloat(document.getElementById('yield').value);
+            const totalYield = area * yieldPerHectare;
+            document.getElementById('result').textContent = `Total Yield: ${totalYield} tons`;
+        });
+    </script>
+</body>
+</html>
